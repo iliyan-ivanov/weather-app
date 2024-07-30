@@ -1,0 +1,15 @@
+html {
+  box-sizing: border-box;
+  background: url('https://pluviophile.net/wp-content/uploads/cloudy-weather-wallpaper.jpg') no-repeat center/cover;
+}
+
+*, 
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
