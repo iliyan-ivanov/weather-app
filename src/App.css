@@ -20,7 +20,7 @@
   content: url(/public/phone.png);
   position: absolute;
   left: -32px;
-  top:30px;
+  top: 30px;
   z-index: -1;
 }
 

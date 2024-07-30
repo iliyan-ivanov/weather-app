@@ -1,9 +1,9 @@
 html {
   box-sizing: border-box;
-  background: url('https://pluviophile.net/wp-content/uploads/cloudy-weather-wallpaper.jpg') no-repeat center/cover;
+  background: url('https://pluviophile.net/wp-content/uploads/cloudy-weather-wallpaper.jpg') no-repeat center center/cover;
 }
 
-*, 
+*,
 *::before,
 *::after {
   box-sizing: inherit;

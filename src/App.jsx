@@ -1,10 +1,10 @@
-import { useEffect, useState } from 'react';
-import './App.css';
-import countries from './countries';
+import { useEffect, useState } from "react";
+import "./App.css";
+import countries from "./countries";
 
 function App() {
   const [data, setData] = useState({});
-  const [location, setLocation] = useState('Sofia');
+  const [location, setLocation] = useState("Sofia");
 
   const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=8f9821771942355cf750149c18f182ca&units=metric`;
 
@@ -21,7 +21,6 @@ function App() {
         .then((cityData) => setData(cityData));
     }
   };
-
 
   return (
     <main className="app">
@@ -45,9 +44,7 @@ function App() {
             <h1>{data.main?.temp.toFixed(0)}ºC</h1>
           </div>
           <div className="description">
-            <h2>{data.weather
-                ? data.weather[0].description
-                : null}</h2>
+            <h2>{data.weather ? data.weather[0].description : null}</h2>
           </div>
         </article>
         <article className="bottom">
